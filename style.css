@@ -1,0 +1,137 @@
+.navbar-nav > li > a::after {
+  content: "|";
+  padding: 0 5px;
+}
+
+.section-header {
+  color: #fff;
+  font-family: Oswald, sans-serif;
+  font-size: 19px;
+  font-weight: 600;
+  overflow: hidden;
+  padding: 2px 18px 1px 19px;
+  z-index: 15;
+  background: none repeat scroll 0 0 #d083cf;
+}
+
+h6 span {
+  background: #d083cf;
+  padding: 5px 10px;
+  font-size: 24px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.social {
+ 
+    margin-top: -29px !important;
+  
+}
+
+.social ul {
+  list-style-type: none !important;
+}
+
+.social li {
+  margin-right: 0% !important;
+  float: left;
+  margin-top: 8px;
+  color: white;
+  margin-right: 4%;
+}
+
+.social div {
+  background-color: white;
+  border: 1px solid #636161;
+  cursor: pointer;
+  transition: 0.5s;
+  height: 34px;
+  width: 34px;
+  background-image: url(images/socials.png);
+}
+
+.facebook div {
+  background-position: 0px -30px;
+  background-size: 270px 60px;
+}
+
+.facebook div:hover {
+  background-position: 0px 0px;
+  background-color: #436eac;
+}
+
+.twitter div{
+    background-position: -27px -30px;
+    background-size: 270px 60px;
+}
+
+.twitter div:hover {
+    background-position: -27px 0px;
+    background-color: #0598c9;
+}
+
+.flickr div{
+    background-position: -58px -30px;
+    background-size: 270px 60px;
+}
+
+.flickr div:hover {
+    background-position: -58px 0px;
+    background-color: #e33b7e;
+}
+
+.pinterest div{
+    background-position: -88px -30px;
+    background-size: 270px 60px;
+}
+
+.pinterest div:hover {
+    background-position: -88px 0px;
+    background-color: #cb2027;
+}
+
+.google-plus div{
+    background-position: -117px -30px;
+    background-size: 270px 60px;
+}
+
+.google-plus div:hover {
+    background-position: -117px 0px;
+    background-color: #d64b2e;
+}
+
+.vimeo div{
+    background-position: -148px -30px;
+    background-size: 270px 60px;
+}
+
+.vimeo div:hover {
+    background-position: -148px 0px;
+    background-color: #86ae24;
+}
+
+.youtube div{
+    background-position: -188px -30px;
+    background-size: 270px 60px;
+    width: 47px !important;
+}
+
+.youtube div:hover {
+    background-position: -188px 0px;
+    background-color: #e32114;
+}
+
+.mail div{
+    background-position: -237px -30px;
+    background-size: 270px 60px;
+}
+
+.mail div:hover {
+    background-position: -237px 0px;
+    background-color: #bc75d6;
+}
+
+.anchor-footer
+{
+    margin-bottom: 10px;
+}
